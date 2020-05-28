@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="miaosha:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="730e2062-938a-4ab6-b105-4173ae53aba4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="XHTML File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\my_maven_local_repository" />
+        <option name="mavenHome" value="D:/javaTools/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\javaTools\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TmZHV2x8s7kl8iblDSQvSCyHZJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.App" />
+      <module name="miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoshaproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.service.impl.OrderServiceImpl" />
+      <module name="miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoshaproject.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="miaosha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoshaproject.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="miaosha" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="src/main/docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.OrderServiceImpl" />
+      <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="730e2062-938a-4ab6-b105-4173ae53aba4" name="Default Changelist" comment="" />
+      <created>1574067143288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574067143288</updated>
+      <workItem from="1574067146426" duration="9170000" />
+      <workItem from="1574080622337" duration="2215000" />
+      <workItem from="1574082863322" duration="1644000" />
+      <workItem from="1574129234708" duration="619000" />
+      <workItem from="1574149898265" duration="19593000" />
+      <workItem from="1574215800579" duration="15547000" />
+      <workItem from="1574255513074" duration="2890000" />
+      <workItem from="1574298621705" duration="32055000" />
+      <workItem from="1574385285086" duration="3759000" />
+      <workItem from="1574390016357" duration="13767000" />
+      <workItem from="1574413943369" duration="4831000" />
+      <workItem from="1574600886807" duration="4130000" />
+      <workItem from="1574645418375" duration="30877000" />
+      <workItem from="1574731258961" duration="4616000" />
+      <workItem from="1574738757019" duration="1839000" />
+      <workItem from="1574749002748" duration="13602000" />
+      <workItem from="1574775661577" duration="2363000" />
+      <workItem from="1574818335678" duration="3596000" />
+      <workItem from="1576635690299" duration="4738000" />
+      <workItem from="1576762321388" duration="987000" />
+      <workItem from="1576808266135" duration="9291000" />
+      <workItem from="1576909841768" duration="1046000" />
+      <workItem from="1576912582363" duration="2854000" />
+      <workItem from="1576916676561" duration="5902000" />
+      <workItem from="1576986628915" duration="3357000" />
+      <workItem from="1576991175010" duration="3164000" />
+      <workItem from="1576994753282" duration="806000" />
+      <workItem from="1576995588904" duration="4661000" />
+      <workItem from="1577000567500" duration="236000" />
+      <workItem from="1577002848933" duration="6183000" />
+      <workItem from="1577087261489" duration="1550000" />
+      <workItem from="1577185979134" duration="2038000" />
+      <workItem from="1577239717734" duration="6836000" />
+      <workItem from="1577368476739" duration="739000" />
+      <workItem from="1577419796689" duration="1681000" />
+      <workItem from="1577604358291" duration="4242000" />
+      <workItem from="1577671575425" duration="1217000" />
+      <workItem from="1577928808486" duration="1243000" />
+      <workItem from="1578638773053" duration="766000" />
+      <workItem from="1578883954531" duration="1001000" />
+      <workItem from="1578917927398" duration="675000" />
+      <workItem from="1579090876601" duration="1343000" />
+      <workItem from="1579586445817" duration="3290000" />
+      <workItem from="1579610790871" duration="901000" />
+      <workItem from="1579614827280" duration="196000" />
+      <workItem from="1579615350441" duration="4345000" />
+      <workItem from="1579680088756" duration="2212000" />
+      <workItem from="1579682467659" duration="792000" />
+      <workItem from="1579683766898" duration="761000" />
+      <workItem from="1580207036204" duration="1562000" />
+      <workItem from="1583153979432" duration="478000" />
+      <workItem from="1583216860533" duration="714000" />
+      <workItem from="1583302490826" duration="797000" />
+      <workItem from="1583307993109" duration="1280000" />
+      <workItem from="1583312450729" duration="948000" />
+      <workItem from="1583731131694" duration="395000" />
+      <workItem from="1583738949654" duration="1148000" />
+      <workItem from="1583825730105" duration="958000" />
+      <workItem from="1583984189983" duration="995000" />
+      <workItem from="1584078512262" duration="591000" />
+      <workItem from="1584083275393" duration="838000" />
+      <workItem from="1584258944372" duration="88000" />
+      <workItem from="1584936450478" duration="1248000" />
+      <workItem from="1585555446591" duration="27000" />
+      <workItem from="1585574757544" duration="286000" />
+      <workItem from="1586351008214" duration="593000" />
+      <workItem from="1586597074325" duration="1167000" />
+      <workItem from="1586741791866" duration="2116000" />
+      <workItem from="1586921042349" duration="1059000" />
+      <workItem from="1587030204568" duration="2075000" />
+      <workItem from="1587085668465" duration="3264000" />
+      <workItem from="1589293766964" duration="311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="441" y="171" width="582" height="524" key="StructurePopup" timestamp="1586597624989">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="441" y="171" width="582" height="524" key="StructurePopup/0.0.1440.860@0.0.1440.860" timestamp="1586597624989" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1586601310469">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1586601310469" />
+  </component>
+</project>
